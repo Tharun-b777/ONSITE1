@@ -1,4 +1,4 @@
 #!/bin/bash
 read -p "Enter column name with values (roll: 999)"
-a=($REPLY)
-grep "${a[1]}" merge2.txt
+value=($REPLY)
+grep "${value[1]}" merge2.txt
